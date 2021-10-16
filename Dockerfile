@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:4.4.0
+FROM python:latest
 COPY . /usr/ML/app
 EXPOSE 5000
 WORKDIR /usr/ML/app
