@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 COPY . /usr/ML/app
 EXPOSE 5000
 WORKDIR /usr/ML/app
-RUN pip install --upgrade pip
+
 RUN pip install -r requirements.txt
 
 
